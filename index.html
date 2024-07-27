@@ -4,27 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="" href="app.js">
 </head>
 <body>
-    <h4>percentage program in javascript</h4>
+    <fieldset>
+        <form>
+    <label>chemistry</label>
+    <br>
+<input  id="chemistry" type="number" placeholder="enter chemistry number">
+</form>
+
+
+<form >
+<label>physics</label>
+<br>
+
+<input  id="physics" type="number" placeholder="enter physics number">
+
+</form>
+
+<form>
+<label>maths</label>
+<br>
+<input id="maths" type="number" placeholder="enter maths number">
+</form>
+
+
+
+<form>
+    <label>english </label>
+    <br>
+ <input id="english" type="number" placeholder="enter physics number">   
+</form>
+</fieldset>
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
 </body>
-
-
-
-<script>
-   
-
-var totalMarks = 400;
-var engMarks = +prompt('enter your english marks');
-var urduMarks = +prompt('enter your urdu marks');
-var chemMarks = +prompt('enter your chemistry marks');
-var phyMarks = +prompt('enter your physics marks');
-
-var obtainedMarks = engMarks + urduMarks + chemMarks + phyMarks;
-
-var percentage = obtainedMarks / totalMarks * 100;
-
-console.log("you got " + percentage + "%");
-</script>
 </html>
